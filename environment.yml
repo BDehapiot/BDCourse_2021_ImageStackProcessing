@@ -1,0 +1,11 @@
+name: BDCourse_2021_Image_Stack-Processing
+
+channels:
+    - conda-forge
+
+dependencies:
+    - python=3.8
+    - numpy=1.22.3
+    - scikit-image=0.19.2
+    - matplotlib=3.5.2
+    - jupyterlab
