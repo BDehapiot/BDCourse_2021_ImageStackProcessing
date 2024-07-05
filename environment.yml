@@ -1,11 +1,17 @@
-name: BDCourse_2021_Image_Stack-Processing
+name: StackProcessing
 
 channels:
-    - conda-forge
+  - conda-forge
 
 dependencies:
-    - python=3.8
-    - numpy=1.22.3
-    - scikit-image=0.19.2
-    - matplotlib=3.5.2
-    - jupyterlab
+  # conda_core
+  - python=3.10
+  - numpy=1.24*
+  - scikit-image
+  - matplotlib-base
+  - pip
+  # conda_spec
+  - jupyterlab
+  - pip:
+    # pip_core
+    # pip_spec

@@ -1,15 +1,3 @@
-![Python Badge](https://img.shields.io/badge/Python-3.10-rgb(69%2C132%2C182)?logo=python&logoColor=rgb(149%2C157%2C165)&labelColor=rgb(50%2C60%2C65))  
-![Author Badge](https://img.shields.io/badge/Author-Benoit%20Dehapiot-blue?labelColor=rgb(50%2C60%2C65)&color=rgb(149%2C157%2C165))
-![Date Badge](https://img.shields.io/badge/Created-2022--05--31-blue?labelColor=rgb(50%2C60%2C65)&color=rgb(149%2C157%2C165))
-![License Badge](https://img.shields.io/badge/Licence-GNU%20General%20Public%20License%20v3.0-blue?labelColor=rgb(50%2C60%2C65)&color=rgb(149%2C157%2C165))     
-
-# BDCourse_2021_ImageStackProcessing  
-Open, process and save image stacks with Python
-
-## Index
-- [Installation](#installation)
-- [Comments](#comments)
-
 ## Installation
 
 Pease select your operating system
@@ -34,9 +22,9 @@ mamba env create -f environment.yml
 ```
 - Activate Conda environment:
 ```bash
-conda activate StackProcessing
+conda activate {{ env_name }}
 ```
-Your prompt should now start with `(StackProcessing)` instead of `(base)`
+Your prompt should now start with `({{ env_name }})` instead of `(base)`
 
 </details> 
 
@@ -67,12 +55,8 @@ mamba env create -f environment.yml
 ```  
 - Activate Conda environment:  
 ```bash
-conda activate StackProcessing
+conda activate {{ env_name }}
 ```
-Your prompt should now start with `(StackProcessing)` instead of `(base)`
+Your prompt should now start with `({{ env_name }})` instead of `(base)`
 
 </details>
-
-
-
-## Comments
